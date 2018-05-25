@@ -1,0 +1,39 @@
+
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,500,600,700');
+
+
+.inicio{
+
+    font-family: 'Oswald', sans-serif;
+    background-color: coral;
+    padding: 20px;
+    margin: 0px;
+
+
+}
+
+.paginas{
+
+    padding: 20px;
+
+}
+
+.inicioBtn, .proyectos, .contacto{
+
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    background-color: rgb(255, 196, 0);
+    border: none;
+    padding: 10px;
+
+
+}
+
+.inicioBtn:hover, .proyectos:hover, .contacto:hover{
+    
+        
+        background-color: rgb(255, 153, 0);
+    cursor: pointer;
+    
+    }
