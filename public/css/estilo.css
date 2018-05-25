@@ -18,7 +18,7 @@
 
 }
 
-.inicioBtn, .proyectos, .contacto{
+#inicioBtn, #proyectos, #contacto{
 
     font-family: 'Oswald', sans-serif;
     font-weight: 400;
@@ -26,11 +26,13 @@
     background-color: rgb(255, 196, 0);
     border: none;
     padding: 10px;
+    text-decoration: none;
+    color: black;
 
 
 }
 
-.inicioBtn:hover, .proyectos:hover, .contacto:hover{
+#inicioBtn:hover, #proyectos:hover, #contacto:hover{
     
         
         background-color: rgb(255, 153, 0);

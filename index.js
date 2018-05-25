@@ -1,6 +1,7 @@
-const express = require('express'), engines = require('consolidate');;
+const express = require('express'),
+    engines = require('consolidate');;
 const app = express();
-app.use('/css',express.static( 'public/css'));
+app.use('/css', express.static('public/css'));
 
 app.engine('hbs', engines.handlebars);
 
@@ -11,9 +12,19 @@ app.use(express.static('public'));
 
 app.listen(5000, () => console.log('Example app listening on port 5000!'));
 
-/*Esta parte es para cargar las paginas*/
 app.get('/', (req, res) => {
-    
-        res.render('index');
-    
-    });
+
+    res.render('index');
+
+});
+app.get('/proyectos', (req, res) => {
+
+    res.render('proyectos');
+
+});
+
+app.get('/contacto', (req, res) => {
+
+    res.render('contacto');
+
+});
